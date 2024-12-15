@@ -1,4 +1,4 @@
-    import { GitHubIcon, LinkedInIcon, XIcon, HuggingFaceIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, XIcon, HuggingFaceIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Divi Eswar Chowdary",
@@ -48,6 +48,14 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "SLB",
+      link: "https://www.slb.com/",
+      badges: ["Onsite"],
+      title: "Data Scientist",
+      start: "2024 July",
+      end: "Present",
+    },
+    {
       company: "Schlumberger",
       link: "https://www.slb.com/",
       badges: ["Onsite"],
@@ -60,11 +68,11 @@ export const RESUME_DATA = {
 
   ],
   skills: [
-    "Deep Learning: PyTorch, Lightning AI, Transformers, PEFT, Bitsandbytes, Hugging Face Ecosystem",
+    "Deep Learning: PyTorch, Lightning AI, Transformers",
     "LLMs: Langchain, Llamaindex, Langgraph",
-    "Databases: MongoDB, Supabase, Pinecone, Qdrant, ChromaDB",
-    "Languages: JavaScript, Python, SQL",
-    "Frameworks: React, Streamlit, FastAPI, Gradio"
+    "Databases: MongoDB, Supabase, Pinecone",
+    "Languages: Python,JavaScript, SQL",
+    "Frameworks: Streamlit, FastAPI, Gradio"
   ],
   projects: [
     {
@@ -123,7 +131,7 @@ export const RESUME_DATA = {
     {
       title: "Transformer-Based Multilingual Automatic Speech Recognition (ASR) Model for Dravidian Languages",
       date: "2024",
-      doilink : "https://doi.org/10.1002/9781394214624.ch13",
+      doilink: "https://doi.org/10.1002/9781394214624.ch13",
       description:
         "This paper presents a approach to ASR for Dravidian languages like Tamil and Telugu. It builds upon the strengths of the powerful Whisper model, known for its multilingual capabilities, and fine-tunes it specifically for these under-resourced languages. This approach achieves significant improvements in WER compared to existing models.",
     },
