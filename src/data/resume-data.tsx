@@ -48,7 +48,7 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "SLB",
+      company: "Schlumberger",
       link: "https://www.slb.com/",
       badges: ["Onsite"],
       title: "Data Scientist",
