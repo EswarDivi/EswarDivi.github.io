@@ -54,6 +54,8 @@ export const RESUME_DATA = {
       title: "Data Scientist",
       start: "2024 July",
       end: "Present",
+      description:
+        "",
     },
     {
       company: "Schlumberger",
